@@ -33,7 +33,7 @@ def detect_and_preprocess_eye(pil_image):
     eye_img = eye_img.reshape(1, 24, 24, 1)
     return eye_img
 
-st.title("Drowsiness Detection (Eye Open/Closed)")
+st.title("Eye Detection (Open/Closed)")
 st.write("Upload or capture an image of your eyes to check if they're open or closed.")
 
 # Capture or upload
